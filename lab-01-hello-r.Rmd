@@ -17,12 +17,12 @@ library(datasauRus)
 
 ### Lab Exercise
 
-answer for Ex4 =-0.0683
-
-circle_data <-datasaurus_dozen %>%filter(dataset == "circle")
-
-ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()
-
-+ 
-> circle_data %>%summarize(r = cor(x, y))
-
+answer for Ex1
+  dataset                x               y           
+ Length:1846        Min.   :15.56   Min.   : 0.01512  
+ Class :character   1st Qu.:41.07   1st Qu.:22.56107  
+ Mode  :character   Median :52.59   Median :47.59445  
+                    Mean   :54.27   Mean   :47.83510  
+                    3rd Qu.:67.28   3rd Qu.:71.81078  
+                    Max.   :98.29   Max.   :99.69468 
+                    
