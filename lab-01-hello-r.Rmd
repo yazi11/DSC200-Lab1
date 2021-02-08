@@ -17,5 +17,6 @@ library(datasauRus)
 
 ### Lab Exercise
 
-answer for Ex 4=-0.0683
+answer for Ex4 =-0.0683
+
 
