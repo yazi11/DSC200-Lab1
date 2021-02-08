@@ -204,6 +204,13 @@ library(datasauRus)</code></pre>
 <div id="lab-exercise" class="section level3">
 <h3>Lab Exercise</h3>
 <p>answer for Ex4 =-0.0683</p>
+<p>circle_data &lt;-datasaurus_dozen %&gt;%filter(dataset == “circle”)</p>
+<p>ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()</p>
+<ul>
+<li><blockquote>
+<p>circle_data %&gt;%summarize(r = cor(x, y))</p>
+</blockquote></li>
+</ul>
 </div>
 
 
